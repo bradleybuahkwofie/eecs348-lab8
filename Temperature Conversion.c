@@ -1,3 +1,17 @@
+/*
+ * EECS 348 - Lab 8
+ * Task 2: Temperature Conversion Program
+ *
+ * Description:
+ *   This program repeatedly converts temperatures between Celsius and Fahrenheit.
+ *   The user enters a numeric temperature followed by a unit character (C or F).
+ *   The program handles invalid input and stops only when the user enters 999.
+ *
+ *   Example input:
+ *     Enter temperature (or 999 to stop): 32 F
+ *     Output: 32.00 F = 0.00 C
+ */
+
 #include <stdio.h>
 #include <ctype.h>
 
@@ -43,4 +57,5 @@ int main(void) {
     }
 
     return 0;
+
 }
