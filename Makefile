@@ -11,9 +11,10 @@ score: score_combinations.c
 	$(CC) $(CFLAGS) score_combinations.c -o score_combinations
 
 # --- Task 2: Temperature Conversion ---
-temp: Temperature_Conversion.c
-	$(CC) $(CFLAGS) temperature_conversion.c -o temperature_conversion
+temp: "Temperature Conversion.c"
+	$(CC) $(CFLAGS) "Temperature Conversion.c" -o temperature_conversion
 
 # --- Clean up compiled binaries ---
 clean:
 	rm -f score_combinations temperature_conversion
+
